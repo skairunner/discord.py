@@ -1,4 +1,4 @@
-# discord.py
+# discord.py legacy
 
 [![PyPI](https://img.shields.io/pypi/v/discord.py.svg)](https://pypi.python.org/pypi/discord.py/)
 [![PyPI](https://img.shields.io/pypi/pyversions/discord.py.svg)](https://pypi.python.org/pypi/discord.py/)
@@ -6,6 +6,8 @@
 discord.py is an API wrapper for Discord written in Python.
 
 This was written to allow easier writing of bots or chat logs. Make sure to familiarise yourself with the API using the [documentation][doc].
+
+Note: This repo is simply a backport of some breaking API changes.
 
 [doc]: http://discordpy.rtfd.org/en/latest
 

@@ -25,13 +25,13 @@ extras_require = {
     'voice': ['PyNaCl==1.0.1'],
 }
 
-setup(name='discord.py',
-      author='Rapptz',
-      url='https://github.com/Rapptz/discord.py',
+setup(name='discord-py-legacy',
+      author='skairunner',
+      url='https://github.com/skairunner/discord.py/tree/namedtuple_fix',
       version=version,
       packages=['discord', 'discord.ext.commands'],
       license='MIT',
-      description='A python wrapper for the Discord API',
+      description='A legacy version of discord.py, a python wrapper for the Discord API',
       long_description=readme,
       include_package_data=True,
       install_requires=requirements,
