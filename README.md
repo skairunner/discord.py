@@ -13,11 +13,7 @@ Note: This repo is simply a backport of some breaking API changes.
 
 ### Breaking Changes
 
-The discord API is constantly changing and the wrapper API is as well. There will be no effort to keep backwards compatibility in versions before `v1.0.0`.
-
-I recommend that you follow the discussion in the [unofficial Discord API discord channel][ch] and update your installation periodically. I will attempt to make note of breaking changes in the API channel so make sure to subscribe to library news by typing `?sub news` in the channel.
-
-[ch]: https://discord.gg/0SBTUU1wZTUzBx2q
+The discord API is constantly changing and the wrapper API is as well. The upcoming October intents change WILL break discordpy-legacy, and there will be no effort made to fix this. October 2020 is the projected end of life for 0.16.13.
 
 ## Installing
 
